@@ -1,0 +1,20 @@
+{
+  "name": "angular-starter",
+  "version": "0.0.1",
+  "description": "Creazione di un template base per applicazioni AngulerJS 1.5",
+  "repository": "",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bower": "^1.7.7",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-copy": "^1.0.0"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "node server.js"
+  }
+}
